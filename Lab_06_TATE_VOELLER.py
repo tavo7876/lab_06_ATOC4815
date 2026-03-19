@@ -71,6 +71,8 @@ greater_than_2_datetime = dewpoint_depression_1hr[dewpoint_depression_1hr >= 2].
 
 fig, ax1 = plt.subplots(figsize=(9, 5))#create subplot if we want to add more graphs later
 
+
+##possible insertion to add a marker for likleyhood of fog/rain ect... needs some more work
 # ax1.fill_between(less_than_2_datetime,20, color = 'lime', alpha = .2, label = "Highest Likleyhood of rain")
 # ax1.fill_between(greater_than_2_datetime,20, color = 'salmon', alpha = .2, label = "Lower Likleyhood of rain")
 
